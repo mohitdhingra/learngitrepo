@@ -1,1 +1,1 @@
-int MyPower(int x, int y);
+long int MyPower(int x, int y);

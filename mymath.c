@@ -1,17 +1,15 @@
 #include<stdio.h>
 
-int x;
-
-int MyPower(int x, int y)
+long int MyPower(int x, int y)
 {
 
-int z, i;
+    int z, i;
 
-for(i = 1; i < y; i++)
-{
-    z = x*x;
-}
+    for(i = 1; i < y; i++)
+    {
+        z = x*x;
+    }
 
-return z;
+    return z;
 
 }
