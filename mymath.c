@@ -7,7 +7,7 @@ long int MyPower(int x, int y)
 
     for(i = 1; i < y; i++)
     {
-        z = x*x;
+        z = z*x;
     }
 
     return z;
