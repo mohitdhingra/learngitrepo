@@ -3,7 +3,7 @@
 long int MyPower(int x, int y)
 {
 
-    int z, i;
+    int z = x, i;
 
     for(i = 1; i < y; i++)
     {
@@ -12,4 +12,17 @@ long int MyPower(int x, int y)
 
     return z;
 
+}
+
+long int MyFactorial(int x)
+{
+    int i = 1;
+    long int result = 1;
+
+    while(i < x)
+    {
+        i++;
+        result *= i;
+    }
+    return result;
 }
