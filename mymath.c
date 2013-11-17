@@ -3,7 +3,7 @@
 long int MyPower(int x, int y)
 {
 
-    int z, i;
+    int z=x, i;
 
     for(i = 1; i < y; i++)
     {
@@ -12,4 +12,9 @@ long int MyPower(int x, int y)
 
     return z;
 
+}
+
+float MyPercentage(int x, int y)
+{
+    return ((float)(x) * 100) / (float)(y);
 }
